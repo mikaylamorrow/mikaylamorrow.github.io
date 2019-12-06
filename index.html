@@ -6,7 +6,7 @@
 <head>
 	
             <style>
-                       body      {background-color:lightcyan;}
+                       body      {background-image:url("lightbwood.jpg");}
                        h1        {color: black;}
                        p         {color: black;}
 		    
@@ -38,7 +38,22 @@
                             height: 20px;
                             }
                             
-                            footer {
+          			.column {
+                            float: left;
+                            width: 33.33%;
+                            padding: 70px;
+                          }
+                   .row:after {
+                                content: "";
+                                display: table;
+                                clear: both;
+                              }
+                   @media screen and (max-width:100%) {
+                   .column {
+                              width: 100%;
+                            }
+                            }
+                  footer {
                           background-color: black;
                           padding: 10px;
                           text-align: center;
@@ -71,16 +86,23 @@
                         Home Page
                         </h1>
 
-                      <p style=" 
+                      
                      
- 			 font-family: biorhyme;
-			 font-size: 100%;
-			 text-align:center;
-             width: 200px;
-             min-height: 200px;
-             border: 2px solid black;">
-             pictures
-             testrun
+ 		             
+             <div class="row">
+  <div class="column">
+    <h2>Doing</h2>
+    <p>nothing im very lazy and not studying for finals like i should be doing</p>
+  </div>
+  
+  <div class="column">
+    <h2>To Do</h2>
+    <p>
+    -sleep
+    -eat
+    -netflix</p>
+  </div>
+</div>
              
                       
 <footer>

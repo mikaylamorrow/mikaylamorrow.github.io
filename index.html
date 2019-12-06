@@ -15,32 +15,74 @@
 				height: 100px;
 				border: 4px solid black;
 				}
+                
+            .navbar {
+                      overflow: hidden;
+                      background-color:black;
+                    }
+                
+             .navbar a {
+                        float: left;
+                        display: block;
+                        color: white;
+                        text-align: right;
+                        padding: 10px 20px;
+                        text-decoration: underline;
+                      }
+            .navbar a.right {
+                            float: right;
+                           }
+          	.navbar a:hover {
+                            background-color: lightgrey;
+                            color: red;
+                            height: 25px;
+                            }
+                
+                
             </style>
 </head>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="/w3css/3/w3.css">
            <body>
-			 <nav class="w3-bar w3-black">
-			  <a href="#home" class="w3-button w3-bar-item">Home</a>
-			  <a href="#band" class="w3-button w3-bar-item">Aboutme</a>
-			  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-			</nav>
+			
+            
+            <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">AboutMe</a>
+            <a href="#">Contact</a>
+            <a href="#" class="right">Random</a>
+            </div>
 		   
                         <h1 style="
  		        font-family: biorhyme;
-		        font-size: 250%;
-		        text-align:center;">
-                        Hi, welcome this is my first webpage.</h1>
+		        font-size: 300%;
+		        text-align:center;
+                padding:50px 50px;
+                text-decoration: overline underline;
+                text-decoration-style: wavy;
+                text-shadow: 2px 2px lightgrey;
+                text-underline-position: under">
+                        Home Page
+                        </h1>
 
-                      <p style=" border:4px solid black;
+                      <p style=" 
  			 font-family: biorhyme;
-			 font-size: 250%;
-			 text-align:center;">
-                      Second line</p>
+			 font-size: 100%;
+			 text-align:center;
+             width: 200px;
+             min-height: 300px;
+             border: 2px solid black;">
+                      Pictures
+                      <img src="orangepuff.jpeg">
+                      </p>
 
-                      <address style ="text-align:right;
-                      border:4px solid black;">
+                      <address style =
+                      "text-align:right;
+                      background-color:black;
+                      color:white;
+                      padding: 10px 20px;
+                      ">
                       Contact:
                       Mikayla M.
                       mmorro5@lsu.edu

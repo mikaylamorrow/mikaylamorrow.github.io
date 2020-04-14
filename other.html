@@ -52,30 +52,15 @@ section		{
 		border-top: 2px solid white;
 		border-bottom: 2px solid white;
 		}
-
-footer		{
+aside   {border-bottom: 2px solid white;}
+footer	{
 		color: black;
 		font-size: 10px;
 		font-family: 'Abel', sans-serif;
-      		padding:10px 25px 10px 25px;
+      	padding:10px 25px 10px 25px;
+           
 		}
-.container 	{
-		display: grid;
-		grid-template-columns: 50% 50%;
-		border-top: 2px solid white;
-		}
-.container > div{
-		text-align: left;
-		padding: 25px 25px;
-		font-size: 16px;
-		}
-.item2		{
-		box-sizing: border-box;
-		color: black;
-		font-size: 18px;
-		font-family: 'Abel', sans-serif;
-		text-align: left;
-		}
+
 .button-basic   {
 		background-color: white;
 		border: 2px solid white;
@@ -92,11 +77,10 @@ footer		{
 .button-basic:hover 
 		{
 		background-color: 	#989898;
-		border: 1px solid 	#989898;
+		border: 2px solid 	#989898;
 		color: black; 
 		}
 div.gallery {
-  
 }
 
 div.gallery:hover {
@@ -146,7 +130,6 @@ div.desc {
 <body>
 
 <div class="content">
-
 		<header>
 			<code> 
 			  <p style="font-size: 45px; font-family: 'Average', serif; text-align:center;"> <b>Mikayla Morrow</b> </p>
@@ -164,7 +147,7 @@ div.desc {
 				  <h2>Paintings</h2>
 				  <p>Here I will share my artwork I have been making due to the coronavirus</p>
 		      	</section>
-<center>
+
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="Rickandmorty">
@@ -176,7 +159,7 @@ div.desc {
     <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="Stitch">
-          <img src="https://vignette.wikia.nocookie.net/stitchipediaalilostitch/images/7/7a/626_Stitch.png/revision/latest?cb=20110515172617" alt="stitch" width="600" height="400">
+          <img src="https://clipartmag.com/image/cute-stitch-drawings-25.jpg" alt="stitch" width="600" height="400">
         </a>
         <div class="desc">Stitch</div>
       </div>
@@ -197,12 +180,14 @@ div.desc {
         <div class="desc">Simpsons</div>
       </div>
     </div>
-</center> 
+ 
 <div class="clearfix"></div>
-<div style="display: inline-block;">
+<aside> </aside>
+ 			<div style="display: inline-block;">
 				<footer>
 					Copyright © 2019 Mikayla Morrow. All rights reserved.
 				</footer>    
 			</div>
+            </div>
 </body>
 </html>
